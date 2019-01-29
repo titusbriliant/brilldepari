@@ -1,0 +1,66 @@
+p{
+    color: blue;
+}
+
+#slider {
+        position: relative;
+        min-height: 800px;
+        overflow: hidden;
+    }
+  
+  .slide {
+    position: absolute;
+    width: 100vw;
+    min-height: 100vw;
+    overflow: hidden;
+  }
+  
+  /* #slide-holder {
+    width: 300%;
+    position: relative;
+ } */
+
+  
+/* .carousel-item{
+    height: 1000px;
+    position: relative;
+}     */
+
+.center-cropped{
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.rounded-circle {
+    background-color: red;
+}
+
+#makanan .card{
+    opacity: 0;
+}
+
+#makanan .card.tampil{
+    opacity: 1;
+}
+
+@media(min-width:1199px){
+
+    p{
+        color: red
+    }
+    .img_event{
+        border-radius: 50%;
+    } 
+}
+
+@media (max-width:575.98px){
+p{
+    color: yellow;
+}
+
+    #gambar_event{
+        visibility: hidden;
+    }
+
+}
